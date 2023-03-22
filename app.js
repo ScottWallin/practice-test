@@ -26,15 +26,20 @@ if(jsReleaseYear > ageToVote){
 } else if(jsReleaseYear < ageToVote) {
   console.log("JavaScrips is not old enough to vote")
 }
-
+console.log("Starting")
 for (let i = 0; i <= 100; i++) {
   if(i % 10 == 0){
     console.log(i)
     }
     if(i == 50){
       console.log("Halfway")
-    }
-  }
+      }
+      if(i == 100){
+        console.log("Finished")
+      }
+      }
+  
 
 
   console.log(user.name,"lives at",user.address.street,",",user.address.city)
+
