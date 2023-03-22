@@ -43,3 +43,7 @@ for (let i = 0; i <= 100; i++) {
 
   console.log(user.name,"lives at",user.address.street,",",user.address.city)
 
+for (let i = 0; i < cases.length; i++) {
+  const item = cases[i];
+  console.log(item.title, item.releaseYear)
+}
