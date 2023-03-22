@@ -1,1 +1,20 @@
 /* YOUR STYLES HERE */
+.codeworks-logo{
+  height: 250px;
+  width: 250px
+}
+img{
+  max-width: 100%;
+}
+.hello{
+  color: #ffffff;
+  background-color: #111927;
+}
+.me{
+  color: #ffdb6d;
+  text-align: center;
+  border: 10px solid #ffdb6d;;
+  border-color: #ffdb6d;
+  background-color: #1d2531;
+  padding: 1rem;
+}

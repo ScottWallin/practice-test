@@ -1,4 +1,4 @@
-const ageToVote = 18
+const ageToVote = 100
 
 const user = {
   name: 'Sherlock Holmes',
@@ -17,5 +17,24 @@ const cases = [
 ]
 
 // YOUR JS CODE
+let currentYear = '2023'
+let jsReleaseYear = '1995'
+
+console.log("current age of JavaScript is", currentYear - jsReleaseYear)
+if(jsReleaseYear > ageToVote){
+  console.log('JavaScript is old enough to vote')
+} else if(jsReleaseYear < ageToVote) {
+  console.log("JavaScrips is not old enough to vote")
+}
+
+for (let i = 0; i <= 100; i++) {
+  if(i % 10 == 0){
+    console.log(i)
+    }
+    if(i == 50){
+      console.log("Halfway")
+    }
+  }
 
 
+  console.log(user.name,"lives at",user.address.street,",",user.address.city)
